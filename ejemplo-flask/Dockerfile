@@ -13,5 +13,5 @@ RUN pip install flask
 # Exponer el puerto donde Flask se ejecuta
 EXPOSE 5000
 
-# Comando para ejecutar tu aplicación Flask
+# Comando para ejecutar Flask
 CMD ["python", "app.py"]
